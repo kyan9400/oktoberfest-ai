@@ -74,3 +74,17 @@ assets/  screenshots & charts
 License
 
 MIT  2025 kyan9400
+
+## Run with Docker
+
+Build the image (only needed once or after changes):
+
+```bash
+docker build -t kyan9400/oktoberfest-ai:latest .
+docker build -t kyan9400/oktoberfest-ai:latest .
+## Run with Docker
+
+Build the image (only needed once or after changes):
+
+```bash
+docker build -t kyan9400/oktoberfest-ai:latest .
