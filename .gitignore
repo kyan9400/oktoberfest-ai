@@ -1,5 +1,6 @@
 ﻿
 Python
+
 pycache/
 *.pyc
 *.pyo
@@ -11,17 +12,19 @@ venv/
 pip-wheel-metadata/
 
 OS / Editors
+
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-Outputs
+Outputs (but allow assets/)
+
 out-*/
 analysis.csv
 analysis.json
 analysis.xlsx
-sentiment.png
 
 Notebooks
+
 .ipynb_checkpoints/
