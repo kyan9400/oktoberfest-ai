@@ -1,22 +1,30 @@
-# Python
-__pycache__/
-*.py[cod]
+﻿
+Python
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
 *.egg-info/
-*.log
-
-# Virtual env
+.env
 .venv/
-env/
 venv/
+pip-wheel-metadata/
 
-# Jupyter/plots/outputs
-*.png
-*.xlsx
-analysis.csv
-analysis.json
-out-*/
+OS / Editors
 
-# OS/editor
 .DS_Store
 Thumbs.db
 .vscode/
+.idea/
+
+Outputs (but allow assets/)
+
+out-*/
+analysis.csv
+analysis.json
+analysis.xlsx
+
+Notebooks
+
+.ipynb_checkpoints/
