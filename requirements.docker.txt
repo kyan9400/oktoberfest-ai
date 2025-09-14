@@ -1,0 +1,6 @@
+﻿pandas>=2.0
+matplotlib>=3.8
+feedparser>=6.0
+transformers>=4.43
+xlsxwriter>=3.2
+torch>=2.3
