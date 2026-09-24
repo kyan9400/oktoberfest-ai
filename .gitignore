@@ -1,30 +1,36 @@
-﻿
-Python
-
-pycache/
-*.pyc
-*.pyo
-*.pyd
+# Python
+__pycache__/
+*.py[cod]
 *.egg-info/
-.env
 .venv/
 venv/
 pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+htmlcov/
 
-OS / Editors
+# Environment
+.env
+.env.*
+!.env.example
 
+# OS / Editors
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-Outputs (but allow assets/)
-
+# Outputs (but allow assets/)
 out-*/
 analysis.csv
 analysis.json
 analysis.xlsx
+/sentiment.png
+/top_positive.csv
+/top_negative.csv
 
-Notebooks
-
+# Notebooks
 .ipynb_checkpoints/

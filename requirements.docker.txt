@@ -1,4 +1,4 @@
-﻿pandas>=2.0
+pandas>=2.0
 matplotlib>=3.8
 feedparser>=6.0
 transformers>=4.43
